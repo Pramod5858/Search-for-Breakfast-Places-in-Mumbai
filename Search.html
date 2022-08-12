@@ -1,0 +1,281 @@
+<html>
+
+<head>
+    <title>Search & Filter</title>
+    <link rel="stylesheet" href="./search.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Oswald&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Oswald&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="alighn">
+            <div class="logo">
+                <b>e!</b>
+            </div>
+        </div>
+        <button class="Login">Login</button>
+        <button class="Account">Create an account</button>
+    </div>
+
+
+    <div class="heading">Breakfast Places in Mumbai</div>
+
+    <div class="sidebar">
+        <!-- Filter Part -->
+        <form>
+            <table style="padding-left: 11px;">
+                <thead>
+                    <tr>
+                        <td colspan="2" style="text-align: left;">
+                            <h1 style="color: #192F60;padding-top: 10px; padding-bottom: 5px;">Filters</h1>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label>
+                                <h2 style="color: #192F60; padding-top: 10px; padding-bottom: 5px;">Select Location
+                                </h2>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select style="width: 180px;height: 34px;font-size: 18px;color: #8C96AB;text-align: left;">
+                                <option disabled selected>Select Location</option>
+                                <option>Delhi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <h2 style="color: #192F60; padding-top: 10px; padding-bottom: 5px;">Cuisine </h2>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="checkbox" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">North
+                                Indian</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="checkbox" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">South
+                                Indian</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="checkbox" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">Chinese</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="checkbox" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">Fast Food</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="checkbox" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">Street Food</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <h2 style="color: #192F60; padding-top: 10px; padding-bottom: 5px;">Cost For Two </h2>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="23" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">Less than ` 500</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="23" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">` 500 to ` 1000</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="23" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">` 1000 to ` 1500</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="23" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">` 1500
+                                to ` 2000</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="23" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">` 2000+</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <h2 style="color: #192F60; padding-top: 10px; padding-bottom: 5px;">Sort </h2>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="22" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">Price low to high</span></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #8C96AB;">
+                            <input type="radio" name="22" style="height: 18px;width: 18px;"><span style="margin: 14px;font-size: 20px;">Price high to low</span></input>
+                        </td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+
+
+        </form>
+    </div>
+
+    <div class="Result">
+        <div class="item-result">
+            <div class="row">
+                <div class="item">
+                    <div class="item-left">
+                        <img src="./img/breakfast.png"
+                            style="width: 127px;height: 123px;border-radius: 22px;">
+                    </div>
+                    <div class="item-right">
+                        <div class="item-right-header">
+                            The Big Chill Cakery
+                            <div>FORT</div>
+
+                        </div>
+
+                        <div class="item-right-content">
+
+                            Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item" style="border-top: 1px solid hwb(221deg 74% 20%);">
+                    <div class="item-left2">
+                        <div class="item-left-header2">
+                            <form>
+                                <table style="margin: 14px;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="color: #8C96AB" ;>
+                                                CUISINES:
+                                            </td>
+                                            <td style="color: #192F60" ;>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Bakery</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: #8C96AB" ;>
+                                                COST FOR TWO:
+                                            </td>
+                                            <td style="color: #192F60" ;>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;₹700</p>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-result">
+            <div class="row">
+                <div class="item">
+                    <div class="item-left">
+                        <img src="./img/breakfast.png"
+                            style="width: 127px;height: 123px;border-radius: 22px;">
+                    </div>
+                    <div class="item-right">
+                        <div class="item-right-header">
+                            The Big Chill Cakery
+                            <div>FORT</div>
+
+                        </div>
+
+                        <div class="item-right-content">
+
+                            Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item" style="border-top: 1px solid hwb(221deg 74% 20%);">
+                    <div class="item-left2">
+                        <div class="item-left-header2">
+                            <form>
+                                <table style="margin: 14px;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="color: #8C96AB" ;>
+                                                CUISINES:
+                                            </td>
+                                            <td style="color: #192F60" ;>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Bakery</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: #8C96AB" ;>
+                                                COST FOR TWO:
+                                            </td>
+                                            <td style="color: #192F60" ;>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;₹700</p>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div class="inlineBlock">&lt;</div>
+
+                                        <div class="inlineBlock">1</div>
+                                        <div class="inlineBlock">2</div>
+                                        <div class="inlineBlock">3</div>
+                                        <div class="inlineBlock">4</div>
+                                        <div class="inlineBlock">5</div>
+                                        <div class="inlineBlock">&gt;</div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
